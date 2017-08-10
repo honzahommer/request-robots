@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+module.exports = require('express')()
+  .use(require('..')())
+  .listen(3000);

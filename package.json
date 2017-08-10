@@ -1,0 +1,34 @@
+{
+  "name": "request-robots",
+  "version": "1.0.0",
+  "description": "An express.js middleware for handling noisy robots.txt",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "repository": "honzahommer/request-robots",
+  "author": "Honza Hommer <honza@hommer.cz>",
+  "homepage": "https://github.com/honzahommer/request-robots#README",
+  "keywords": [
+    "express",
+    "robots.txt",
+    "middleware",
+    "mw"
+  ],
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "chai-http": "^3.0.0",
+    "express": "^4.15.3",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {}
+}
