@@ -37,7 +37,7 @@ app.listen(3000);
 
 [release-image]: https://img.shields.io/github/release/honzahommer/request-robots.svg
 [release-url]: https://github.com/honzahommer/request-robots/releases/latest
-[npm-image]: https://img.shields.io/npm/v/serve-robots.svg
-[npm-url]: https://npmjs.org/package/serve-robots
+[npm-image]: https://img.shields.io/npm/v/requst-robots.svg
+[npm-url]: https://npmjs.org/package/request-robots
 [travis-image]: https://img.shields.io/travis/honzahommer/request-robots/master.svg
 [travis-url]: https://travis-ci.org/honzahommer/request-robots
