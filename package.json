@@ -1,6 +1,6 @@
 {
   "name": "request-robots",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An express.js middleware for handling noisy robots.txt",
   "main": "index.js",
   "scripts": {
