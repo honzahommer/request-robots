@@ -1,4 +1,7 @@
 # request-robots
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/honzahommer/request-robots.svg)](https://greenkeeper.io/)
+
 > An express.js middleware for handling noisy robots.ico
 
 [![Release][release-image]][release-url]
