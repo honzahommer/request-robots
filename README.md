@@ -1,13 +1,11 @@
 # request-robots
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/honzahommer/request-robots.svg)](https://greenkeeper.io/)
-
-> An express.js middleware for handling noisy robots.ico
-
-[![Release][release-image]][release-url]
 [![npm version][npm-image]][npm-url]
 [![npm download][downloads-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
+[![Greenkeeper badge](https://badges.greenkeeper.io/honzahommer/request-robots.svg)](https://greenkeeper.io/)
+
+> An express.js middleware for handling noisy robots.ico
 
 Modern browsers usually asks for robots of the website. Having a robots in a Web page is a good thing (normally). 
 
@@ -39,8 +37,6 @@ app.listen(3000);
 
 [MIT](LICENSE)
 
-[release-image]: https://img.shields.io/github/release/honzahommer/request-robots.svg
-[release-url]: https://github.com/honzahommer/request-robots/releases/latest
 [npm-image]: https://img.shields.io/npm/v/request-robots.svg
 [npm-url]: https://npmjs.org/package/request-robots
 [travis-image]: https://img.shields.io/travis/honzahommer/request-robots/master.svg
