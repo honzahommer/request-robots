@@ -1,8 +1,9 @@
 # request-robots
-> An express.js middleware for handling noisy robots.txt
+> An express.js middleware for handling noisy robots.ico
 
 [![Release][release-image]][release-url]
 [![npm version][npm-image]][npm-url]
+[![npm download][downloads-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 
 Modern browsers usually asks for robots of the website. Having a robots in a Web page is a good thing (normally). 
@@ -41,3 +42,4 @@ app.listen(3000);
 [npm-url]: https://npmjs.org/package/request-robots
 [travis-image]: https://img.shields.io/travis/honzahommer/request-robots/master.svg
 [travis-url]: https://travis-ci.org/honzahommer/request-robots
+[downloads-image]: https://img.shields.io/npm/dm/request-robots.svg

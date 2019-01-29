@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
 module.exports = require('express')()
-  .use(require('..')())
+  .use(require('../lib')())
   .listen(3000);

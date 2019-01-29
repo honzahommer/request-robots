@@ -4,11 +4,11 @@ const should = chai.should();
 
 chai.use(require('chai-http'));
 
-describe('/GET robots.txt', function () {
-  it('it should return status 204', function (done) {
+describe('/GET robots.txt', () => {
+  it('it should return status 204', done => {
     chai.request(serve)
       .get('/robots.txt')
-      .end(function(err, res) {
+      .end((err, res) => {
          res.should.have.status(204);
          done();
       });
